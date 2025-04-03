@@ -30,7 +30,8 @@ SELECT
         COALESCE(FORMAT(DATEADD(DAY, -1, next_start_date), 'MMMM dd, dddd, yyyy'), 'Now')
     ) AS period
 FROM ResidencyPeriods
-ORDER BY first_name, last_name, start_date;```
+ORDER BY first_name, last_name, start_date;
+```
 
 ---
 

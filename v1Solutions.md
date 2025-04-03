@@ -1,4 +1,4 @@
-## **V1 Solution using CTE** 
+# **V1 Solution using CTE** 
 
 ---
 
@@ -34,7 +34,7 @@ ORDER BY first_name, last_name, start_date;```
 
 ---
 
-### **Explanation**
+## **Explanation**
 This solution uses a **Common Table Expression (CTE)** to get the next start_date for each person using the `LEAD()` function.
 The query then calculates the `end_date` by subtracting one day from the `next_start_date`. If there is no next residency, the `end_date` will be `NULL`, indicating the person is still living in that city.
 The `period` is formatted as specified in the requirements.
